@@ -1,19 +1,11 @@
 
-/* Inline media */
-
 @import "inlineMedia.css";
-
-/* Basic Body Structure */
-
-:root {
-	supported-color-schemes: light;
-}
 
 * {
 	margin: 0;
 	padding: 0;
 	font-size: 100%;
-  	word-wrap: break-word;
+  word-wrap: break-word;
 	word-break: break-word;
 }
 
@@ -499,12 +491,12 @@ body[dir="rtl"] div.line[data-line-type="nick"] .message:before {
 /* what is an action? */
 
 div.line[data-line-type="action"] .sender {
-  color: #3180FF;
+  color: #3180FF; /* blue */
 }
 
 div.line[data-line-type="privmsg"] .sender {
-	color: #3180FF;
+	color: #3180FF; /* blue */
 }
 div.line[data-line-type="privmsg"] .sender[data-member-type="myself"] {
-	color: #F68004;
+	color: #F68004; /* orange */
 }
